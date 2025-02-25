@@ -12,6 +12,7 @@ public class BulletLauncher : MonoBehaviour
     public void Spawn(){
         // create bubble 
         GameObject bullet = Instantiate(prefab, spawnTransform.position, spawnTransform.rotation);
+        bullet.transform.rotation = Random.rotation; // random bubble rotation!
         float launchSpeed = 3f;
 
         // create Vector3 to represent forward movement force 
