@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5f459d714c967e74abac0cdcf2585bfd
+timeCreated: 1543176398
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61071
+  packageName: Low Poly Ground
+  packageVersion: 1.2
+  assetPath: Assets/LowPolyGround/TutorialInfo/Scripts/buttonAssetstore.cs
+  uploadId: 284347

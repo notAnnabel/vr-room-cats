@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56af498a20d7fb14ab9dd5bbde060f9d
+timeCreated: 1461108130
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61071
+  packageName: Low Poly Ground
+  packageVersion: 1.2
+  assetPath: Assets/LowPolyGround/DemoScene.unity
+  uploadId: 284347
