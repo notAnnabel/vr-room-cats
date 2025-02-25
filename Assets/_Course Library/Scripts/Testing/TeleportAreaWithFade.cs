@@ -9,7 +9,8 @@ public class TeleportAreaWithFade : UnityEngine.XR.Interaction.Toolkit.Locomotio
     protected override void Awake()
     {
         base.Awake();
-        fadeCanvas = FindObjectOfType<FadeCanvas>();
+        // fadeCanvas = FindObjectOfType<FadeCanvas>();
+        fadeCanvas = GetComponent<FadeCanvas>();
     }
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
