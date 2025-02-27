@@ -13,7 +13,7 @@ public class CustomBubbles : MonoBehaviour
         // create bubble 
         GameObject bubble = Instantiate(prefab, spawnTransform.position, spawnTransform.rotation);
         bubble.transform.rotation = Random.rotation; // random bubble rotation!
-        float launchSpeed = Random.Range(0.5f, 1.5f);
+        float launchSpeed = Random.Range(20f, 50f);
 
         // create Vector3 to represent forward movement force 
         Vector3 force = spawnTransform.forward * launchSpeed; // forward vector is pos x axis

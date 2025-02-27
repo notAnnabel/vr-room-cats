@@ -13,20 +13,14 @@ public class BulletLauncher : MonoBehaviour
         // create bubble 
         GameObject bullet = Instantiate(prefab, spawnTransform.position, spawnTransform.rotation);
         bullet.transform.rotation = Random.rotation; // random bubble rotation!
-        float launchSpeed = 3f;
+        float launchSpeed = 70f;
 
         // create Vector3 to represent forward movement force 
         Vector3 force = spawnTransform.forward * launchSpeed; // forward vector is pos x axis
 
         bullet.GetComponent<Rigidbody>().AddForce(force);
-        bubble.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-1f, 1f),Random.Range(-1f, 1f),Random.Range(-1f, 1f)));
+        
     }
 }
 
-public class Lifetime : MonoBehaviour 
-{ 
-    public float TimeToLive = 4f; 
-    private void Start() { 
-        Destroy(gameObject, TimeToLive); 
-        } 
-}
+
