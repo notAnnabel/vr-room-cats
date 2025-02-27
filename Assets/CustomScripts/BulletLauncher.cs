@@ -19,5 +19,6 @@ public class BulletLauncher : MonoBehaviour
         Vector3 force = spawnTransform.forward * launchSpeed; // forward vector is pos x axis
 
         bullet.GetComponent<Rigidbody>().AddForce(force);
+        bubble.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-1f, 1f),Random.Range(-1f, 1f),Random.Range(-1f, 1f)));
     }
 }
