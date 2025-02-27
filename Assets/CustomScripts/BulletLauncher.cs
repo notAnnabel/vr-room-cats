@@ -22,3 +22,11 @@ public class BulletLauncher : MonoBehaviour
         bubble.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-1f, 1f),Random.Range(-1f, 1f),Random.Range(-1f, 1f)));
     }
 }
+
+public class Lifetime : MonoBehaviour 
+{ 
+    public float TimeToLive = 4f; 
+    private void Start() { 
+        Destroy(gameObject, TimeToLive); 
+        } 
+}
